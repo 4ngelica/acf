@@ -1,0 +1,70 @@
+.hero{
+    width: 100%;
+    min-height: 95vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.hero-container{
+    width: 90%;
+    text-align: center;
+
+    div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+    }
+
+    button{
+        padding:15px;
+        margin:10px;
+        color: #FFF;
+        border-radius: 5px;
+    }
+
+    p{
+        font-size: 16px;
+        color: #B5B5B5;
+    }
+
+    h1{
+        font-size: calc(54px*(12/16));
+
+    }
+
+    .interest{
+        background: none;
+        border: solid 1px #FFF;
+    }
+
+    .buy-now{
+        background: #f89d24;
+        border: solid 1px #f89d24;
+    }
+}
+
+
+/*Media queries*/
+@media only screen and (min-width: 426px){
+}
+
+@media only screen and (min-width: 768px){
+    .hero-container {
+        width:  720px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .hero-container {
+        width:  960px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .hero-container {
+        width:  1140px;
+    }
+}

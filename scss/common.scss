@@ -1,16 +1,107 @@
-.hero{
+body{
+    background-color: #242424;
+    margin:0;
+    padding:0;
+}
 
-    h1{
-        font-size: 30px;
-        line-height: 40px;
-    }
+h1, h2, h3, h4, h5, h6{
+    color: #FFF;
+}
 
-    p{
-        font-size: 20px;
-        line-height: 30px;
+section{
+    margin: 0;
+    padding:0;
+}
 
-        b {
-            color: blue;
-        }
-    }
+.your-time-banner{
+    width: 100%;
+    display: flex;
+    margin:0;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background: gray;
+    color: white;
+}
+
+.your-time-banner .title{
+    width: 70%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.your-time-banner .price{
+    width: 30%;
+    text-align: center;
+    background-color: orange;
+    padding: 2em 0;
+}
+
+.skills-container{
+    width: 60%;
+    margin: 5em auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list{
+    width: 40%;
+    background-color: gray;
+}
+
+.skills-list ul{
+    list-style: none;
+}
+
+.skills-text{
+    width: 60%;
+    background-color: darkgray;
+}
+
+.skills-text p{
+    padding: 2em 2em 0 2em;
+}
+
+.skills-text-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0 2em 2em 2em;
+}
+
+.skills-text-buttons button{
+    margin: 1em;
+}
+
+.our-teachers-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.our-teachers-container h2{
+    width: 100%;
+}
+
+.our-teachers-card{
+    width: 30%;
+    border: solid white 1px;
+}
+
+/*Media queries*/
+@media only screen and (min-width: 426px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
+}
+
+@media only screen and (min-width: 1200px){
+
 }

@@ -1,0 +1,54 @@
+.no-customers-grid{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        "text"
+        "card-1"
+        "card-2"
+        "card-3"
+        "card-4"
+        "button-1"
+        "button-2";
+}
+
+.grid-child{
+    border: solid 1px white;
+}
+
+.grid-text{ grid-area: text; }
+.card-1{ grid-area: card-1; }
+.card-2{ grid-area: card-2; }
+.card-3{ grid-area: card-3; }
+.card-4{ grid-area: card-4; }
+.button-1{ grid-area: button-1; }
+.button-2{ grid-area: button-2; }
+
+/*Media queries*/
+@media only screen and (min-width: 426px){
+
+}
+
+@media only screen and (min-width: 768px){
+    .no-customers-grid{
+        max-width: 1080px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "text text card-1 card-2"
+            "text text card-1 card-2"
+            "text text card-3 card-4"
+            "button-1 button-2 card-3 card-4";
+    } 
+}
+
+@media only screen and (min-width: 992px){
+   
+}
+
+@media only screen and (min-width: 1200px){
+
+}
